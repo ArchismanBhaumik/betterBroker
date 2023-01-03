@@ -1,4 +1,4 @@
-.App {
+.App{
   text-align: center;
 }
 
@@ -35,4 +35,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+.postCard{
+  height: 320px;
+  background-image: url(https://plus.unsplash.com/premium_photo-1664283661780-e5fee864b047?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+  position: relative;
+  
+}
+.cardDetail{
+  border-bottom: solid 8px black;
+  border-radius: 12px 12px 0 0;
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  margin-left: 5% !important;
+}
+.headerback{
+  height: 90px;
 }
