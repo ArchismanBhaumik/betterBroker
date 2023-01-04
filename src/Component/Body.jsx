@@ -4,6 +4,8 @@ import Posts from './Posts';
 import Favourites from './Favourites';
 import PostAd from './PostAd';
 import ListProperty from './ListProperty';
+import Login from './Login';
+
 
 function Body() {
   return ( <div>
@@ -12,6 +14,7 @@ function Body() {
         <Route path='favourites' element={<Favourites/>}/>
         <Route path='post' element={<PostAd/>}/>
         <Route path='list' element={<ListProperty/>}/>
+        <Route path='login' element={<Login/>}/>
       </Routes>
   </div> );
 }
