@@ -5,6 +5,7 @@ import Favourites from './Favourites';
 import PostAd from './PostAd';
 import ListProperty from './ListProperty';
 import Login from './Login';
+import Register from './Register';
 
 
 function Body() {
@@ -15,6 +16,7 @@ function Body() {
         <Route path='post' element={<PostAd/>}/>
         <Route path='list' element={<ListProperty/>}/>
         <Route path='login' element={<Login/>}/>
+        <Route path='register' element={<Register/>}/>
       </Routes>
   </div> );
 }
