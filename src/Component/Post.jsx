@@ -1,7 +1,8 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 export default function Post() {
   return (
+    <Link to='/details'>
     <div className='postCard p-2 px-0 m-3 rounded-4 row'>
         <div className='bg-white mx-auto px-3 py-3  cardDetail'>
             <div className="row">
@@ -16,5 +17,6 @@ export default function Post() {
 
         </div>
     </div>
+    </Link>
   )
 }

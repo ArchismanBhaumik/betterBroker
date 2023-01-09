@@ -6,7 +6,7 @@ import PostAd from './PostAd';
 import ListProperty from './ListProperty';
 import Login from './Login';
 import Register from './Register';
-
+import PropertyDetails from './PropertyDetails';
 
 function Body() {
   return ( <div>
@@ -17,6 +17,7 @@ function Body() {
         <Route path='list' element={<ListProperty/>}/>
         <Route path='login' element={<Login/>}/>
         <Route path='register' element={<Register/>}/>
+        <Route path='details' element={<PropertyDetails/>}/>
       </Routes>
   </div> );
 }
