@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom';
 import {posts} from './Posts'
 
+
 function PropertyDetails(props) {
   const { keyId } = useParams();
   
@@ -15,7 +16,8 @@ function PropertyDetails(props) {
       
       {currentProperty.address}
       <br />
-      {currentProperty.description}
+
+      <p className='box rounded  bg-light '>{currentProperty.description}</p>
       
       <br />
       <button>Add to favourites</button>

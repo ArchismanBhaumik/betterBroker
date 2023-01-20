@@ -64,3 +64,9 @@
   background-size: cover;
   background-position: center;
 }
+.box{
+  border: 1px solid black;
+  width: auto;
+  padding: 50px;
+  margin: 20px;
+}
