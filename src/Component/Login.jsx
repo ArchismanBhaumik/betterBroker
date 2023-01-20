@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 function Login() {
+  let currentPage=window.location.pathname;
+  
+  console.log(currentPage);
   return (
     <div className='login-form'>
         <h1>BetterBroker.Com</h1>

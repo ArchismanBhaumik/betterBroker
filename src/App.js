@@ -1,15 +1,17 @@
 import './App.css';
-import Footer from './Component/Footer';
-import Header from './Component/Header';
-import Body from './Component/Body';
+import { Routes, Route } from "react-router-dom";
+import AppBody from './Component/AppBody';
+import Login from './Component/Login';
 
 
 function App() {
+  
   return (
     <div className="App">
-      <Header />
-      <Body />
-      <Footer />
+    <AppBody/>
+      <Routes>
+        <Route path='login' element={<Login/>}/>
+      </Routes>
     </div>
   );
 }

@@ -6,6 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
+.linkRoutes{
+  text-decoration: none;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -55,4 +58,9 @@
 }
 .headerback{
   height: 90px;
+}
+.pageImage{
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
 }
