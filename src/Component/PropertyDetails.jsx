@@ -17,10 +17,15 @@ function PropertyDetails(props) {
       {currentProperty.address}
       <br />
 
-      <p className='box rounded  bg-light '>{currentProperty.description}</p>
+      <p className='box rounded bg-light '>{currentProperty.description}</p>
       
       <br />
       <button>Add to favourites</button>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   )
 }
